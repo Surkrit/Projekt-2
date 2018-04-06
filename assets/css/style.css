@@ -1,0 +1,70 @@
+
+nav {
+    margin: 0%;
+    padding: 0%;
+    z-index: 100;
+    width: 100%;
+    background-color: #004981;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2vh;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 16px;
+    font-family: 'Lato', cursive;
+    color: white;
+}
+
+nav li {
+    padding-right: 1%;
+}
+
+.dropbtn{
+  background-color: #004981;
+  color: #ffffff;
+  padding:16px;
+  border: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content{
+  display: none;
+  position: absolute;
+  background-color: #004981;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#hvikedu{
+  display: flex;
+  height: 10%;
+  width:  10%;
+  align-items: center;
+}
+
+#search {
+  margin-top: 17px;
+  height: 50%;
+}
+
+#seicon {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+}
