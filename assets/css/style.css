@@ -1,0 +1,60 @@
+ul {
+  display: none;
+}
+
+footer {
+ position: absolute;
+ text-align: center;
+ /*bottom: 0;*/
+}
+
+.classes {
+  margin-left: 3vh;
+  width: 15vh;
+  position: absolute;
+  left:
+}
+
+.lessons {
+  width: 100%;
+  position: absolute;
+  width: 14vh;
+  top: auto;
+  margin-left: 25vh;
+}
+
+.aboutus {
+  width: 100%;
+  position: absolute;
+  width: 15vh;
+  top: auto;
+  margin-left: 45vh;
+}
+
+.contactus {
+  width: 100%;
+  position: absolute;
+  width: 15vh;
+  top: 3vh;
+  margin-left: 80vh;
+}
+
+.icons {
+  width: 100%;
+  position: absolute;
+  width: 15vh;
+  top: 10vh;
+  margin-left: 78vh;
+}
+
+.formular {
+  margin-left: 105vh;
+  background-color: white;
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.kubo {
+  margin-top: 
+}
