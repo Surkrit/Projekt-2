@@ -50,6 +50,18 @@ nav li {
   z-index: 1;
 }
 
+.dropdown_content a:hover {
+  background-color: #ddd
+}
+
+.dropdown:hover .dropdown_content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn{
+background-color: #3e8e41;
+}
+
 #hvikedu{
   display: flex;
   height: 10%;
