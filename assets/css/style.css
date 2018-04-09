@@ -106,9 +106,12 @@ color: #004981;
   padding-top: 20px;
 }
 
+main {
+  display: flex;
+}
+
 .onlessons {
   display: flex;
-  position: absolute;
   background-color: green;
   height: 400px;
   width: 400px;
@@ -145,6 +148,7 @@ color: #004981;
   top: 200px;
 }
 
+
 .loginheader {
   width: 110%;
   margin-left: -5vh;
@@ -168,7 +172,6 @@ footer {
 .classes {
   margin-left: 8vh;
   width: 15vh;
-  position: absolute;
   color: white;
   top: 7vh;
   max-width: 100%;
@@ -178,7 +181,6 @@ footer {
 
 .lessons {
   width: 100%;
-  position: absolute;
   width: 14vh;
   top: 7vh;
   margin-left: 30vh;
@@ -190,7 +192,6 @@ footer {
 
 .aboutus {
   width: 100%;
-  position: absolute;
   width: 15vh;
   top: 7vh;
   margin-left: 50vh;
@@ -201,7 +202,6 @@ footer {
 
 .contactus {
   width: 100%;
-  position: absolute;
   width: 15vh;
   top: 7vh;
   margin-left: 80vh;
@@ -211,7 +211,6 @@ footer {
 
 .icons {
   width: 100%;
-  position: absolute;
   width: 15vh;
   top: 15vh;
   margin-left: 80vh;
