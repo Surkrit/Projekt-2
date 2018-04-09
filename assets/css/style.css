@@ -94,7 +94,7 @@ border-width: 5px;
 
 #bar {
   display: flex;
-  color: #004981;
+  background-color: #004981;
 }
 
 ul {
@@ -147,8 +147,7 @@ footer {
 }
 
 .formular {
-  margin-left: 80vh;
-  margin-top:-20vh;
+  margin-left: 105vh;
   background-color: white;
   padding: 10px;
   max-width: 100%;
@@ -156,5 +155,4 @@ footer {
 }
 
 .kubo {
-  margin-top: 13vh;
-  margin-left: 160vh;
+  margin-top:
