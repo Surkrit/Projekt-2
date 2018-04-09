@@ -1,7 +1,7 @@
 
 nav {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0 50px;
     z-index: 100;
     width: 100%;
     background-color: #004981;
@@ -9,10 +9,10 @@ nav {
 }
 
 nav ul {
+    margin: auto;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 nav a {
@@ -21,28 +21,32 @@ nav a {
     cursor: pointer;
     text-transform: uppercase;
     display: block;
-    padding: 20px 16px;
     color: white;
+
 }
 
+
 nav li {
-    padding-right: 1%;
+  margin: auto 25px;
+  padding: 0;
+}
+
+button {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
 }
 
 .dropbtn{
   background-color: #004981;
   color: #ffffff;
-  padding:16px;
   border: none;
 }
 
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
 
 .dropdown_content{
   display: none;
+  padding: 16px;
   position: absolute;
   background-color: #004981;
   min-width: 160px;
@@ -54,56 +58,45 @@ nav li {
   background-color: #ddd
 }
 
-.dropdown:hover .dropdown_content{
+.dropdown:hover .dropdown_content {
   display: block;
 }
 
-.dropdown:hover .dropbtn{
+.dropdown:hover .dropbtn {
 background-color: #ffffff;
 color: #004981;
-border-style: solid;
-border-color: #044475;
-border-width: 5px;
+
 }
 
+
 #hvikedu{
-  display: flex;
-  height: 10%;
-  width:  10%;
-  align-items: center;
+  height: 60px;
+  max-height: 100%;
 }
 
 #search {
-  margin-top: 17px;
-  height: 50%;
+  padding: 10px;
+  margin: auto 15px auto auto;
+  height: 100%;
+  display: block;
 }
 
 #seicon {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  color: white;
+  color: #ffffff;
+  margin: auto 0;
+  padding: 10px;
+  display: block;
 }
 
-#baricon {
-  display: flex;
-<<<<<<< HEAD
-  align-items: center;
-  padding-left: 30px;
-  color: white;
+
+.dropdown {
+  margin: auto 0;
+  padding: 0 25px;
+  position: relative;
+  display: inline-block;
 }
 
-#bar {
-  display: flex;
-  background-color: #004981;
-=======
-  padding-top: 20px;
->>>>>>> ce151e17b89e9a0192be0df912851ab3f356a145
-}
 
-ul {
-  display: none;
-}
 
 .loginheader {
   width: 110%;
@@ -127,6 +120,7 @@ footer {
 
 
 .container_footer {
+  padding: 0 25px;
    background-color: #004981;
    border-color:
 }
