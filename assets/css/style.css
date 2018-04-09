@@ -145,6 +145,7 @@ color: #004981;
   top: 200px;
 }
 
+
 .loginheader {
   width: 110%;
   margin-left: -5vh;
@@ -159,7 +160,7 @@ color: #004981;
 }
 
 footer {
-  position: absolute;
+  position: relative;
   font-size: 12px;
   color: #ffffff;
   width: 100%;
