@@ -101,6 +101,19 @@ ul {
   display: none;
 }
 
+.loginheader {
+  width: 110%;
+  margin-left: -5vh;
+  margin-top: -2.5vh;
+}
+
+#loginkedu {
+  display: flex;
+  height: 10%;
+  width:  10%;
+  margin-right: 150vh;
+}
+
 footer {
  position: absolute;
  text-align: center;
