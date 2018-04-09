@@ -104,57 +104,79 @@ ul {
 footer {
  position: absolute;
  text-align: center;
- /*bottom: 0;*/
+ bottom: 0;
+ width: 100%;
+}
+
+
+.container_footer {
+   background-color: #004981;
+   border-color:
 }
 
 .classes {
-  margin-left: 3vh;
+  margin-left: 8vh;
   width: 15vh;
   position: absolute;
-  left:
+  color: white;
+  top: 7vh;
+  max-width: 100%;
+  font-family: "lato";
+
 }
 
 .lessons {
   width: 100%;
   position: absolute;
   width: 14vh;
-  top: auto;
-  margin-left: 25vh;
+  top: 7vh;
+  margin-left: 30vh;
+  color: white;
+  max-width: 100%;
+  font-family: "lato";
+
 }
 
 .aboutus {
   width: 100%;
   position: absolute;
   width: 15vh;
-  top: auto;
-  margin-left: 45vh;
+  top: 7vh;
+  margin-left: 50vh;
+  color: white;
+  max-width: 100%;
+  font-family: "lato";
 }
 
 .contactus {
   width: 100%;
   position: absolute;
   width: 15vh;
-  top: 3vh;
+  top: 7vh;
   margin-left: 80vh;
+  color: white;
+  font-family: "lato";
 }
 
 .icons {
   width: 100%;
   position: absolute;
   width: 15vh;
-  top: 10vh;
-  margin-left: 78vh;
+  top: 15vh;
+  margin-left: 80vh;
 }
 
 .formular {
   margin-left: 80vh;
-  margin-top:-20vh;
-  background-color: white;
-  padding: 10px;
+  background-color: ;
+  padding-bottom: 10px;
   max-width: 100%;
   text-align: center;
+  color: white;
 }
 
-.kubo {
-  margin-top: 13vh;
-  margin-left: 160vh;
+#kubofooter {
+  max-width: 10%;
+  margin-left: 175vh;
+  margin-bottom: -53vh;
+}
