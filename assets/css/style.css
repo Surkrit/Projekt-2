@@ -85,6 +85,18 @@ border-width: 5px;
   color: white;
 }
 
+#barsicon {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: white;
+}
+
+#bar {
+  display: flex;
+  color: #004981;
+}
+
 ul {
   display: none;
 }
