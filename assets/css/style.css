@@ -147,7 +147,8 @@ footer {
 }
 
 .formular {
-  margin-left: 105vh;
+  margin-left: 80vh;
+  margin-top:-20vh;
   background-color: white;
   padding: 10px;
   max-width: 100%;
@@ -155,4 +156,5 @@ footer {
 }
 
 .kubo {
-  margin-top:
+  margin-top: 13vh;
+  margin-left: 160vh;
