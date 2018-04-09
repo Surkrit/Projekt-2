@@ -62,9 +62,6 @@ nav li {
 .dropdown:hover .dropbtn{
 background-color: #ffffff;
 color: #004981;
-border-style: solid;
-border-color: #044475;
-border-width: 5px;
 }
 
 #hvikedu{
@@ -72,6 +69,7 @@ border-width: 5px;
   height: 10%;
   width:  10%;
   align-items: center;
+  padding-top: 10px;
 }
 
 #search {
