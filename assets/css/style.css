@@ -80,7 +80,8 @@ color: #004981;
 #seicon {
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 5px;
+  margin-top: 20px;
   color: white;
 }
 
