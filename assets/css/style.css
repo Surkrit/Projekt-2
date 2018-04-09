@@ -61,9 +61,6 @@ nav li {
 .dropdown:hover .dropbtn{
 background-color: #ffffff;
 color: #004981;
-border-style: solid;
-border-color: #044475;
-border-width: 5px;
 }
 
 #hvikedu{
@@ -88,7 +85,6 @@ border-width: 5px;
 
 #baricon {
   display: flex;
-<<<<<<< HEAD
   align-items: center;
   padding-left: 30px;
   color: white;
@@ -97,9 +93,46 @@ border-width: 5px;
 #bar {
   display: flex;
   background-color: #004981;
-=======
   padding-top: 20px;
->>>>>>> ce151e17b89e9a0192be0df912851ab3f356a145
+}
+
+.onlessons {
+  display: flex;
+  position: absolute;
+  background-color: green;
+  height: 400px;
+  width: 400px;
+  right:
+}
+
+.firbox {
+  display: flex;
+  position: absolute;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  right: 200px;
+  top: 200px;
+}
+
+.sekbox {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  right: 100px;
+  top: 200px;
+}
+
+.trebox {
+  display: flex;
+  position: absolute;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  right: 00px;
+  top: 200px;
 }
 
 ul {
@@ -120,16 +153,16 @@ ul {
 }
 
 footer {
- position: absolute;
- text-align: center;
- bottom: 0;
- width: 100%;
+  position: absolute;
+  font-size: 12px;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+  height: 5vh;
 }
-
 
 .container_footer {
    background-color: #004981;
-   border-color:
 }
 
 .classes {
@@ -186,11 +219,12 @@ footer {
 
 .formular {
   margin-left: 105vh;
-  background-color: white;
+  background-color: #004981;
   padding: 10px;
   max-width: 100%;
   text-align: center;
   color: white;
+
 }
 
 #kubofooter {
