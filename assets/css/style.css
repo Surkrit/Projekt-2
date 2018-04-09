@@ -85,8 +85,9 @@ border-width: 5px;
   color: white;
 }
 
-#barsicon {
+#baricon {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   padding-left: 30px;
   color: white;
@@ -95,10 +96,26 @@ border-width: 5px;
 #bar {
   display: flex;
   background-color: #004981;
+=======
+  padding-top: 20px;
+>>>>>>> ce151e17b89e9a0192be0df912851ab3f356a145
 }
 
 ul {
   display: none;
+}
+
+.loginheader {
+  width: 110%;
+  margin-left: -5vh;
+  margin-top: -2.5vh;
+}
+
+#loginkedu {
+  display: flex;
+  height: 10%;
+  width:  10%;
+  margin-right: 150vh;
 }
 
 footer {
