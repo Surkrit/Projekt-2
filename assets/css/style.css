@@ -6,7 +6,6 @@ nav {
     width: 100%;
     background-color: #004981;
     font-family: "lato";
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 nav ul {
@@ -62,6 +61,9 @@ nav li {
 .dropdown:hover .dropbtn{
 background-color: #ffffff;
 color: #004981;
+border-style: solid;
+border-color: #044475;
+border-width: 5px;
 }
 
 #hvikedu{
@@ -69,7 +71,6 @@ color: #004981;
   height: 10%;
   width:  10%;
   align-items: center;
-  padding-top: 10px;
 }
 
 #search {
@@ -87,7 +88,18 @@ color: #004981;
 
 #baricon {
   display: flex;
+<<<<<<< HEAD
+  align-items: center;
+  padding-left: 30px;
+  color: white;
+}
+
+#bar {
+  display: flex;
+  background-color: #004981;
+=======
   padding-top: 20px;
+>>>>>>> ce151e17b89e9a0192be0df912851ab3f356a145
 }
 
 ul {
@@ -117,8 +129,7 @@ footer {
 
 .container_footer {
    background-color: #004981;
-   border-color: ;
-   box-shadow: 16px 8px 16px 16px rgba(0,0,0,0.2);
+   border-color:
 }
 
 .classes {
@@ -180,7 +191,6 @@ footer {
   max-width: 100%;
   text-align: center;
   color: white;
-  background-color: #004981;
 }
 
 #kubofooter {
