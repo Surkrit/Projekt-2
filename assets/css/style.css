@@ -84,17 +84,9 @@ color: #004981;
   color: white;
 }
 
-#barsicon {
+#baricon {
   display: flex;
-  align-items: center;
-  padding-left: 30px;
-  color: white;
-}
-
-#bar {
-  display: flex;
-  background-color: #004981;
-  border-style: none;
+  padding-top: 20px;
 }
 
 ul {
