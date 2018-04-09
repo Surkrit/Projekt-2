@@ -51,10 +51,13 @@
               </li>
               <input type="text" placeholder="Search" name="search" id="search">
               <i class="fa fa-search" id="seicon"></i>
-              <button id="bar">
-              <i class="fa fa-bars" id="barsicon"></i>
-
-            </button>
+              <div class="dropdown">
+                <button class="dropbtn fa fa-bars"></button>
+                <div class="dropdown_content">
+                  <a href="#">link 1</a>
+                  <a href="#">link 1</a>
+                  <a href="#">link 1</a>
+                </div>
 
             </ul>
           </nav>
@@ -103,8 +106,8 @@
            method="POST"
            enctype="multipart/form-data"
            name="EmailTestForm">
-          Dit Navn:<br><input type="text" size="35"><br><br>
-          Din Besked:<br><textarea rows="4" cols="40"></textarea><br>
+          Name:<br><input type="text" size="35"><br><br>
+          Message:<br><textarea rows="4" cols="40"></textarea><br>
           <input type="submit" value="Send">
           </form>
         </div>
