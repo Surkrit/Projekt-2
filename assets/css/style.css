@@ -107,17 +107,25 @@ color: #004981;
 }
 
 main {
-  display: flex;
+  display: block;
+  overflow: scroll;
 }
 
 .onlessons {
   display: flex;
-  flex-direction: row;
   background-color: green;
+  margin-left: 75px;
+  margin-right: 75px;
   height: 400px;
-  width: 400px;
+  width: max-width;
   right: 0px;
   top:200px;
+}
+
+.classbox {
+    display: flex;
+    display: inline-flex;
+    margin:
 }
 
 .firbox {
