@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-
+    <main>
+      <div class="flex cloum full-height">
+      </div>
         <header>
           <nav>
             <ul>
@@ -47,91 +49,81 @@
                   </div>
                 </div>
               </li>
-              <input type="text" placeholder="Search" name="search" id="search">
-              <span class="fa fa-search" id="seicon"></span>
-              <div class="dropdown">
-                <button class="dropbtn fa fa-bars" id="baricon"></button>
-                <div class="dropdown_content">
-                  <a href="#">link 1</a>
-                  <a href="#">link 1</a>
-                  <a href="#">link 1</a>
-                </div>
-                </div>
+
+              <li>
+                <input type="text" placeholder="Search" name="search" id="search">
+              </li>
+
+              <li>
+                <i class="fa fa-search" id="seicon"></i>
+              </li>
+
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn fa fa-bars" id="baricon"></button>
+                  <div class="dropdown_content">
+                    <a href="#">link 1</a>
+                    <a href="#">link 1</a>
+                    <a href="#">link 1</a>
+                  </div>
+              </li>
             </ul>
           </nav>
         </header>
 
-      <main>
 
-          <section class="onlessons">
-              <div class="classbox">
-                <div class="firbox">
-
-                </div>
-                <div class="sekbox">
-
-                </div>
-                <div class="trebox">
-
-                </div>
-              </div>
-            </section>
-        </main>
+      </section>
 
         <footer>
-        <ul class="container_footer">
+        <div class="container_footer">
           <div class="classes">
-            <li>
+            <article>
               <h4><u>Classes</u></h4>
               <p>0-4th grade</p>
               <p>5th-6th grade</p>
               <p>7th-9th grade</p>
-            </li>
+            </article>
           </div>
 
           <div class="lessons">
-            <li>
+            <article>
               <h4><u>Lessons</u></h4>
               <p>Danish</p>
               <p>Math</p>
               <p>Coding</p>
-            </li>
+            </article>
           </div>
 
           <div class="aboutus">
-            <li>
+            <article>
               <h4><u>About Us</u></h4>
               <p>FaQ</p>
               <p>KEDU</p>
               <p>Kubo Robotics</p>
-            </li>
-          </div>
-
-          <div class="icons">
-           <li>
-            <h4>Contact Us</h4>
-            <a href="https://www.facebook.com" target="_blank"> <img src="assets/img/facebook.svg" alt="facebook" style="width:4vh;"></a>
-            <a href="https://www.instagram.com" target="_blank"> <img src="assets/img/instagram.svg" alt="instagram" style="width:4vh;"></a>
-            <a href="https://www.youtube.com" target="_blank"> <img src="assets/img/youtube.svg" alt="youtube" style="width:4vh;"></a>
-           </li>
+            </article>
           </div>
 
           <div class="contactus">
-          <li>
-              <form class="formular"
-                action=""
-                method="POST"
-                enctype="multipart/form-data"
-                name="EmailTestForm">
-                Name:<br><input type="text" size="40"><br><br>
-                Message:<br><textarea rows="4" cols="40"></textarea><br>
-                <input type="submit" value="Send">
-              </form>
-            </li>
+            <h4>Contact Us</h4>
           </div>
-          <img src="assets/img/kedu.png" id="kubofooter" alt="kedu">
-          </ul>
+          <div class="icons">
+            <a href="https://www.facebook.com" target="_blank"> <img src="assets/img/facebook.svg" alt="facebook" style="width:4vh;"></a>
+            <a href="https://www.instagram.com" target="_blank"> <img src="assets/img/instagram.svg" alt="instagram" style="width:4vh;"></a>
+            <a href="https://www.youtube.com" target="_blank"> <img src="assets/img/youtube.svg" alt="youtube" style="width:4vh;"></a>
+          </div>
+            <img src="assets/img/kedu.png" id="kubofooter" alt="kedu">
+          <form class="formular"
+           action=""
+           method="POST"
+           enctype="multipart/form-data"
+           name="EmailTestForm">
+          Name:<br><input type="text" size="35"><br><br>
+          Message:<br><textarea rows="4" cols="40"></textarea><br>
+          <input type="submit" value="Send">
+          </form>
+        </div>
         </footer>
+    </main>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
