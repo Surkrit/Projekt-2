@@ -256,10 +256,12 @@ a {
 #loginkedu {
   width: 10%;
   height: 10%;
+  margin-left: 2%;
 }
 
 .content_login {
   display: flex;
+  height: 100%;
 }
 
 
@@ -271,7 +273,7 @@ a {
   background-color: #004981;
   flex: 3;
   color: white;
-  margin-top: -10vh;
+  height: 100%;
 }
 
 #login {
@@ -282,7 +284,7 @@ a {
 
 #createuser {
   display: flex;
-  margin-top: 31%;
+  margin-top: 30.5%;
   margin-left: 1%;
   font-family: lato;
   color: white;
@@ -291,12 +293,7 @@ a {
 
 #forgotpassword {
   color: white;
-  text-decoration:;
   margin-left: 3%;
-}
-
-#forgotpassword a:hover {
-  text-decoration: underline;
 }
 
 .loginform {
@@ -329,11 +326,17 @@ a {
   border: none;
   border-radius: 7px;
 }
-#rememberme {
-  display: inline;
+.rememberme {
   top: 28px;
   left: 5px;
   color: white;
+}
+
+.rememberme input {
+  position: relative;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
 }
 
 .checkboxpassword {
@@ -356,9 +359,10 @@ a {
   margin-top: -20px;
 }
 
+
+
 aside {
   padding: 0 15px;
-  padding-bottom: 14.7%;
   height: 100%;
   background-color: #004981;
 }
@@ -432,6 +436,32 @@ margin: auto 0 0 0;
 
 .line {
   border-right: 2px solid black;
-  width: 50%;
+
+  margin: 0;
+  padding:0;
+  flex: 1;
+
+
+}
+
+.stepmain{
+  display: flex;
+
+
+
+}
+
+.w3-card-4 {
+  padding: 25px;
+  right: 30px;
+}
+
+
+.textbox
+{
+  padding-right: 30;
+  margin-right: 20px;
+
+  flex: 1;
 
 }
