@@ -9,14 +9,44 @@
   </head>
   <body>
     <main>
-      <div class="flex cloum full-height">
-      </div>
       <header>
         <nav class="loginheader">
           <ul>
             <img src="assets/img/kedu.png" id="loginkedu" alt="kedu">
         </nav>
       </header>
+      <div class="content_login">
+        <article id="login_background_left">
+          <div class="welcomemessage">
+          <h1 id="welcome">Welcome to</h1>
+          <img id="keduwelcome" src="assets/img/kedu_login.png" alt="welcome">
+          </div>
+        </article>
+        <aside id="login_background_right">
+          <div class="logincreate">
+          <h4 id="login">LOGIN</h4>
+          <a id="createuser" href="#">Create user</a>
+          </div>
+        <form class="loginform"
+         action=""
+         method="POST"
+         enctype="multipart/form-data"
+         name="EmailTestForm">
+        <br><input id="loginuser" type="text" placeholder="Username" size="35"><br><br>
+        <br><input id="loginuser" type="password" placeholder="Password" size="35"><br>
+        <input id="loginbutton" type="submit" value="Sign In">
+        </form>
+
+        <div class="checkboxpassword">
+      <form action="">
+        <label id="rememberme">
+          <input type="checkbox" name="remember" value="Remember Me">Remember Me<br>
+        </label>
+        <a id="forgotpassword" href="#">Forgot Password</a>
+      </form>
+        </div>
+      </div>
+    </aside>
         <footer>
         </footer>
     </main>
