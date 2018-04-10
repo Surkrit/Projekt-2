@@ -112,20 +112,29 @@ color: #004981;
 }
 
 main {
-  display: flex;
+  display: block;
+  overflow: scroll;
 }
 
 .onlessons {
   display: flex;
   background-color: green;
+  margin-left: 75px;
+  margin-right: 75px;
   height: 400px;
-  width: 400px;
-  right:
+  width: max-width;
+  right: 0px;
+  top:200px;
+}
+
+.classbox {
+    display: flex;
+    display: inline-flex;
+    margin:
 }
 
 .firbox {
   display: flex;
-  position: absolute;
   background-color: yellow;
   height: 100px;
   width: 100px;
@@ -135,7 +144,6 @@ main {
 
 .sekbox {
   display: flex;
-  position: absolute;
   background-color: black;
   height: 100px;
   width: 100px;
@@ -145,7 +153,6 @@ main {
 
 .trebox {
   display: flex;
-  position: absolute;
   background-color: red;
   height: 100px;
   width: 100px;
