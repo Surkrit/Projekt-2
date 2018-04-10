@@ -365,5 +365,20 @@ margin: auto 0 0 0;
 .line {
   border-right: 2px solid black;
   width: 50%;
+  margin: 0;
+  padding:0;
 
+}
+
+.w3-card-4 {
+  padding: 25px;
+  margin: 0 0 0 50%;
+  right: 30px;
+}
+
+
+.textbox
+{
+  padding-right: 30;
+  margin-right: 20px;
 }
