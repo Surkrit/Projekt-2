@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
 nav {
     margin: 0;
@@ -198,11 +202,11 @@ article {
   justify-content: space-between;
 }
 
-.loginheader {
-  margin-left: -5vh;
-  margin-top: -2.5vh;
-}
 
+#loginkedu {
+  width: 10%;
+  height: 10%;
+}
 
 .content_login {
   display: flex;
@@ -246,7 +250,7 @@ article {
 }
 
 .loginform {
-  padding: 5px;
+  padding: 4px;
   color: #004981;
 }
 
@@ -304,8 +308,7 @@ article {
 
 aside {
   padding: 0 15px;
-  margin-right: -8px;
-  padding-bottom: 14%;
+  padding-bottom: 14.7%;
   height: 100%;
   background-color: #004981;
 }
@@ -374,4 +377,11 @@ margin: auto 0 0 0;
   width: 10%;
   height: 10%;
   max-height: 100%;
+}
+
+
+.line {
+  border-right: 2px solid black;
+  width: 50%;
+
 }
