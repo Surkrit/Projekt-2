@@ -206,6 +206,7 @@ article {
 #loginkedu {
   width: 10%;
   height: 10%;
+  margin-left: 2%;
 }
 
 .content_login {
@@ -233,7 +234,7 @@ article {
 
 #createuser {
   display: flex;
-  margin-top: 31%;
+  margin-top: 30.5%;
   margin-left: 1%;
   font-family: lato;
   color: white;
@@ -242,12 +243,7 @@ article {
 
 #forgotpassword {
   color: white;
-  text-decoration:;
   margin-left: 3%;
-}
-
-#forgotpassword a:hover {
-  text-decoration: underline;
 }
 
 .loginform {
@@ -280,11 +276,17 @@ article {
   border: none;
   border-radius: 7px;
 }
-#rememberme {
-  display: inline;
+.rememberme {
   top: 28px;
   left: 5px;
   color: white;
+}
+
+.rememberme input {
+  position: relative;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
 }
 
 .checkboxpassword {
@@ -306,6 +308,8 @@ article {
   width: 75%;
   margin-top: -20px;
 }
+
+
 
 aside {
   padding: 0 15px;
