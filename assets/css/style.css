@@ -112,15 +112,16 @@ main {
 
 .onlessons {
   display: flex;
+  flex-direction: row;
   background-color: green;
   height: 400px;
   width: 400px;
-  right:
+  right: 0px;
+  top:200px;
 }
 
 .firbox {
   display: flex;
-  position: absolute;
   background-color: yellow;
   height: 100px;
   width: 100px;
@@ -130,7 +131,6 @@ main {
 
 .sekbox {
   display: flex;
-  position: absolute;
   background-color: black;
   height: 100px;
   width: 100px;
@@ -140,7 +140,6 @@ main {
 
 .trebox {
   display: flex;
-  position: absolute;
   background-color: red;
   height: 100px;
   width: 100px;
