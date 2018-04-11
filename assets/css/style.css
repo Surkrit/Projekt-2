@@ -261,6 +261,7 @@ a {
 #login_background_right {
   height: 100%;
   background-color: #004981;
+  padding-bottom: 9.9%;
   flex: 3;
   color: white;
 }
@@ -334,6 +335,7 @@ a {
 
 .welcomemessage {
   text-align: center;
+  margin-top: 20%;
 }
 
 #welcome {
