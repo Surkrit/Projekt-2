@@ -1,6 +1,5 @@
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
 }
 
 nav {
@@ -124,11 +123,13 @@ color: #004981;
 }
 
 main {
-  display: block;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 
 section {
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -208,10 +209,11 @@ a {
   a:hover {text-decoration: underline;}
 
 #wrapper, #loginform {
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 75px;
     padding-bottom: 25px;
     background: #ebf4fb;
-    width: 504px;
+    width: 404px;
     border: 1px solid #acd8f0;
     float: left;
   }
@@ -227,13 +229,14 @@ a {
   padding: 10px;
   background: #fff;
   height: 270px;
-  width:430px;
+  width:330px;
   border:1px solid #acd8f0;
   overflow:auto;
 }
 
 #usermsg {
-  width: 395px;
+  width: 272px;
+  margin-left: 35px;
   border:1px solid #acd8f0;
 }
 
@@ -250,6 +253,37 @@ a {
 .msgln {margin:0 0 2px 0; }
 
 /*Chat boxen slut*/
+/*newsboks*/
+.news {
+  margin-right: 62px;
+}
+
+.newsboks {
+  background: green;
+  display: flex;
+  margin-top: 25px;
+  padding: 25px;
+  right: 30px;
+  float: right;
+  box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
+}
+
+.newstekst {
+  display: block;
+  border-style: solid;
+  border-right: none;
+
+}
+
+#newspic {
+  width: 5%;
+  height: 5%;
+  border-style: solid;
+  border-left: 0.5px;
+  margin-right: 62px;
+}
+
+/*newsboks*/
 #loginkedu {
   width: 10%;
   height: 10%;
@@ -372,14 +406,16 @@ aside {
 }
 
 footer {
+  flex-direction: column;
+  width: 100%;
   margin: auto 0 0 0;
   font-size: 12px;
   color: #ffffff;
-  width: 100%;
-
 }
 
+
 .container_footer {
+  bottom: 0;
   padding: 0 75px;
   list-style: none;
   display: flex;
@@ -391,7 +427,6 @@ footer {
   margin: auto;
   color: white;
   font-family: "lato";
-
 }
 
 .lessons {
