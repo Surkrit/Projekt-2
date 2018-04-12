@@ -439,6 +439,10 @@ margin: auto 0 0 0;
 
 }
 
+.Beskrivelsebox{
+  padding: 25px;
+  margin: auto;
+}
 .line {
   border-right: 2px solid black;
   margin: 0;
@@ -455,8 +459,21 @@ margin: auto 0 0 0;
 
 }
 
-.w3-panel w3-card {
+.Billede2{width: 60%;
+margin:auto;
+box-shadow: 0px 8px 0px 0px rgba(173, 162, 162, 0.2);
+border: 1px solid grey;
+order:2;
+flex:1;
 
+}
+
+
+.textbox2 {
+  padding: 0px;
+  margin: auto;
+flex: 1;
+order: 1;
 }
 
 .textbox {
