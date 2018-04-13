@@ -11,16 +11,15 @@ nav {
     font-family: "lato";
 }
 
-ul {
+.ulnav {
   margin: auto;
   padding: 0 75px;
 }
 
-nav ul {
+nav .ulnav {
     margin: auto;
     list-style: none;
     display: flex;
-
 }
 
 nav a {
@@ -88,25 +87,20 @@ color: #004981;
 }
 
 #search {
-  padding: 10px;
+  padding: auto 15px;
   margin: auto;
+  flex: 3 ;
   height: 100%;
   display: block;
 }
 
 #seicon {
   color: #ffffff;
-  margin: auto;
+  margin: auto 0;
   padding: 10px;
   display: block;
 }
 
-#baricon {
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  color: white;
-}
 
 #bar {
   display: flex;
@@ -115,19 +109,13 @@ color: #004981;
 }
 
 #kuta {
-  width: 83.5%;
-  height: 20%;
-  border-style: solid;
+  width: 100%;
+  height: 100%;
   border-bottom: none;
   border-color: #004981;
 }
 
-main {
-    position: relative;
-    margin: 0;
-    padding-bottom: 6rem;
-    min-height: 100%;
-}
+
 
 section {
   justify-content: space-between;
@@ -135,62 +123,41 @@ section {
 }
 
 .onlessons {
+  height: 100vh;
   display: flex;
   background-color: #ffffff;
-  width: 60%;
   justify-content: center;
-  float: right;
 }
 
 .classbox {
-    display: flex;
-    margin-left: 75px;
-    margin-right: 75px;
-    float: right;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
 }
 
-.firbox {
-  display: flex;
-  background-color: #ffffff;
-  height: 200px;
-  width: 200px;
-  box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-style: solid;
-  border-color: #004981;
-  border-top: none;
+.lessonbox {
+  border: 2px solid #004981;
+  padding: 0 ;
+  margin: auto 6vh;
 }
 
-.sekbox {
-  display: flex;
-  background-color: #ffffff ;
-  height: 200px;
-  width: 200px;
-  box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-style: solid;
-  border-color: #004981;
-  border-top: none;
-}
 
-.trebox {
-  display: flex;
-  background-color: #ffffff;
-  height: 200px;
-  width: 200px;
-  box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
-  padding-right: 10px;
-  padding-left: 10px;
-  border-style: solid;
-  border-color: #004981;
-  border-top: none;
+<<<<<<< HEAD
+=======
+.underliner h3 {
+  text-decoration: underline;
 }
 
 .flexbetween {
-  justify-content: space-between;
+  padding-left: 5px;
+  flex-direction: column;
 }
+
+.bordercolor {
+  border-color: #004981;
+}
+>>>>>>> 9071c73010d85eae58cd7ec36b60a5749e33825d
 /*Chat boxen css*/
 form, p, span {
   margin: 0;
@@ -263,6 +230,7 @@ a {
   display: flex;
   margin-top: 25px;
   margin-right: 53px;
+  margin-bottom: 20px;
   right: 30px;
   float: right;
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
@@ -270,14 +238,14 @@ a {
 
 .newstekst {
   display: block;
-  border-style: solid;
-  border-right: none;
   font-family: "lato";
 }
 
 .newspic {
   border-style: solid;
-
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
 }
 
 /*newsboks*/
@@ -287,6 +255,7 @@ a {
   margin-left: 2%;
 }
 
+/* Login html starter her*/
 .content_login {
   display: flex;
   margin: auto;
@@ -392,7 +361,6 @@ a {
 }
 
 
-
 aside {
   padding: 0 15px;
   background-color: #004981;
@@ -402,28 +370,27 @@ aside {
   display: flex;
 }
 
+/* Footer sectionen starter her */
+
 footer {
-  flex-direction: column;
   width: 100%;
-  margin: auto 0 0 0;
-  font-size: 12px;
-  color: #ffffff;
+  margin-top: 60vh;
+  height: 60vh;
+  display: flex;
+  background-color: #004981;
 }
 
-
-.container_footer {
-  bottom: 0;
-  padding: 0 75px;
-  list-style: none;
+footer ul {
   display: flex;
+  list-style: none;
   flex-direction: row;
-  background-color: #004981;
 }
 
 .classes {
   margin: auto;
   color: white;
   font-family: "lato";
+
 }
 
 .lessons {
@@ -456,7 +423,6 @@ footer {
   max-width: 100%;
   text-align: center;
   color: white;
-
 }
 
 #kubofooter {
@@ -465,10 +431,11 @@ margin: auto 0 0 0;
   height: 10%;
   max-height: 100%;
 }
-
+/* steps.html sectionen */
 .stockfoto {
   width: 100%;
 }
+
 .content_wrapper {
   overflow: hidden;
   display: flex;
@@ -479,11 +446,11 @@ margin: auto 0 0 0;
   padding: 25px;
   margin: auto;
 }
+
 .line {
   margin: auto;
   padding:0;
   flex: 1;
-
  }
 
 .Billede1{
