@@ -109,43 +109,36 @@ color: #004981;
 }
 
 #kuta {
-  width: 100%;
-  height: 100%;
-  border-bottom: none;
-  border-color: #004981;
+  max-width: 100%;
+  max-height: 100%;
+  border-bottom: 2px solid #004981;
 }
 
-
-
-section {
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 .onlessons {
   height: 100vh;
   display: flex;
   background-color: #ffffff;
-  justify-content: center;
 }
 
 .classbox {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
-  padding: 0 10%;
+  margin: 0 auto;
+  padding: 0 10% 25%;
 }
+
 
 .lessonbox {
+  width: 30vh;
   border: 2px solid #004981;
   padding: 0;
-  margin: auto;
+  margin: 0;
 }
 
-
-
-
 /*Chat boxen css*/
+
 form, p, span {
   margin: 0;
   padding: 0;
@@ -169,7 +162,7 @@ a {
     background: #ebf4fb;
     width: 404px;
     border: 1px solid #acd8f0;
-    float: left;
+    float:left;
   }
 
 #loginform { padding-top: 18px;}
@@ -208,38 +201,35 @@ a {
 
 /*Chat boxen slut*/
 /*newsboks*/
+
 .news {
-  margin-right: 62px;
+  margin: auto;
+  padding: 0 75px;
+  display: flex;
+}
+
+.newsboks_bordercolor {
+  display:block
 }
 
 .newsboks {
   border-style: solid;
-  display: flex;
-  margin-top: 25px;
-  margin-right: 53px;
-  margin-bottom: 20px;
-  right: 30px;
-  float: right;
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
 }
 
-.newstekst {
-  display: block;
-  font-family: "lato";
-}
-
-.newspic {
-  border-style: solid;
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
-}
 
 /*newsboks*/
 #loginkedu {
   width: 10%;
   height: 10%;
   margin-left: 2%;
+}
+
+#newspic {
+  max-width: 100%;
+  width: 50%;
+  max-height: 100%;
+  height: 50%;
 }
 
 /* Login html starter her*/
@@ -361,8 +351,8 @@ aside {
 
 footer {
   width: 100%;
-  margin-top: 60vh;
-  height: 60vh;
+  margin: auto;
+  height: 100%;
   display: flex;
   background-color: #004981;
 }
@@ -424,7 +414,6 @@ margin: auto 0 0 0;
 }
 
 .content_wrapper {
-  overflow: hidden;
   display: flex;
 
 }
