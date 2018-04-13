@@ -10,90 +10,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <main>
-      <header>
-        <nav>
-          <ul>
-            <img src="assets/img/kedu.png" id="hvikedu" alt="kedu">
-            <li>
-              <div class="dropdown">
-                <button class="dropbtn">Classes</button>
-                <div class="dropdown_content">
-                  <a href="#">pre school</a>
-                  <a href="#">elementry school</a>
-                  <a href="#">high school</a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="dropdown">
-                <button class="dropbtn">Subject</button>
-                <div class="dropdown_content">
-                  <a href="#">link 1</a>
-                  <a href="#">link 1</a>
-                  <a href="#">link 1</a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="dropdown">
-                <button class="dropbtn">Courses</button>
-                <div class="dropdown_content">
-                  <a href="#">link 1</a>
-                  <a href="#">link 1</a>
-                  <a href="#">link 1</a>
-                </div>
-              </div>
-            </li>
-            <input type="text" placeholder="Search" name="search" id="search">
-            <span class="fa fa-search" id="seicon"></span>
-            <div class="dropdown">
-              <button class="dropbtn fa fa-bars" id="baricon"></button>
-              <div class="dropdown_content">
-                <a href="#">link 1</a>
-                <a href="#">link 1</a>
-                <a href="#">link 1</a>
-              </div>
-              </div>
-          </ul>
-        </nav>
-      </header>
       <main class="uploadmain">
-        <article class="uploadchat">
-          <p>Something</p>
-        </article>
       <aside class="uploadlessons">
-        <h2>Upload Lesson</h2>
+        <h1 id="uploadhead">UPLOAD LESSONS</h1>
       <form lang="en" method="post" enctype="multipart/form-data">
-      <table border="1">
-        <tr>
-          <td>Subject</td>
-          <td>
-          <input list="subjects" name="Subject" size="15">
+          <input id="uploadform" list="subjects" placeholder="Chose Subject" size="20" >
           <datalist id="subjects">
           <option value="Danish">
           <option value="Mathematics">
           <option value="Coding">
           <option value="Science">
           </datalist>
-        </td>
-        </tr>
-        <tr>
-          <td>Files</td>
-          <td><input type="file" name="uploadfiles"></td>
-        </tr>
-      <tr>
-      	<td>Titel</td>
-      	<td><input type="text" name="Titel" size="35"></td>
-      </tr>
-      <tr>
-      	<td>Comments</td>
-      	<td><input type="text" name="comments" size="35"></td>
-      </tr>
-      <tr><td colspan="2" align="center"><input type="submit" value="Upload"></td></tr>
-      </table>
+          <input id="uploadform" type="file" name="uploadfiles" <input id="uploadform" type="text" name="Title" placeholder="Title">
+
+      	<input id="uploadform" placeholder="Comments" type="text" name="comments" size="35">
+        <input id="uploadbutton" align="center" type="submit" value="Upload">
       </form>
     </aside>
     </main>
