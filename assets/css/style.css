@@ -520,11 +520,22 @@ margin: auto 0 0 0;
   border: 1px solid grey;
 }
 
-
-
 .textbox2 {
   padding: 0px;
   margin: auto;
   flex: 1;
-
 }
+
+.uploadmain {
+  display: flex;
+}
+
+.uploadchat {
+  flex: 1;
+}
+
+.uploadlessons {
+  background-color: white;
+  position: 50%;
+  flex: 1;
+  }
