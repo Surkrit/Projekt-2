@@ -296,6 +296,7 @@ a {
   margin-left: 2%;
 }
 
+/* Login html starter her*/
 .content_login {
   display: flex;
   margin: auto;
@@ -401,7 +402,6 @@ a {
 }
 
 
-
 aside {
   padding: 0 15px;
   background-color: #004981;
@@ -410,6 +410,8 @@ aside {
 .logincreate {
   display: flex;
 }
+
+/* Footer sectionen starter her */
 
 footer {
   flex-direction: column;
@@ -473,7 +475,7 @@ margin: auto 0 0 0;
   height: 10%;
   max-height: 100%;
 }
-
+/* steps.html sectionen */
 .stockfoto {
   width: 100%;
 }
