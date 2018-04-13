@@ -129,19 +129,30 @@ color: #004981;
   padding: 0 10% 25%;
 }
 
+<<<<<<< HEAD
+=======
+#onle {
+ text-decoration: underline;
+}
+>>>>>>> 621e5b7882e90a2af9a3e028db5ddb15197a245e
 
 .lessonbox {
   width: 30vh;
   border: 2px solid #004981;
   padding: 0;
+<<<<<<< HEAD
   margin: 0;
+=======
+  margin: 10px;
+>>>>>>> 621e5b7882e90a2af9a3e028db5ddb15197a245e
 }
-
-
-
 
 .bordercolor {
   border-color: #004981;
+}
+
+.underliner h2 h3{
+  text-decoration: underline;
 }
 /*facebook post box*/
 .facepost {
@@ -153,12 +164,13 @@ color: #004981;
   margin-top: 30px;
 }
 
-
-
 #potext {
   padding-right: 270px;
   margin-left: 10px;
   justify-content: center;
+  outline: none;
+  border-left: none;
+  border-right: none;
 }
 
 /*facebook post box*/
@@ -248,6 +260,12 @@ a {
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
 }
 
+<<<<<<< HEAD
+=======
+#newspic {
+
+}
+>>>>>>> 621e5b7882e90a2af9a3e028db5ddb15197a245e
 
 /*newsboks*/
 #loginkedu {
