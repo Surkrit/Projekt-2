@@ -136,17 +136,22 @@ section {
   padding: 0 10%;
 }
 
+#onle {
+ text-decoration: underline;
+}
+
 .lessonbox {
   border: 2px solid #004981;
   padding: 0;
-  margin: auto;
+  margin: 10px;
 }
-
-
-
 
 .bordercolor {
   border-color: #004981;
+}
+
+.underliner h2 h3{
+  text-decoration: underline;
 }
 /*facebook post box*/
 .facepost {
@@ -158,12 +163,13 @@ section {
   margin-top: 30px;
 }
 
-
-
 #potext {
   padding-right: 270px;
   margin-left: 10px;
   justify-content: center;
+  outline: none;
+  border-left: none;
+  border-right: none;
 }
 
 /*facebook post box*/
@@ -258,7 +264,7 @@ a {
 }
 
 #newspic {
-  
+
 }
 
 /*newsboks*/
