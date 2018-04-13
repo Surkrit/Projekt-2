@@ -117,7 +117,6 @@ color: #004981;
 
 .onlessons {
   height: 100vh;
-  display: flex;
   background-color: #ffffff;
 }
 
@@ -129,22 +128,18 @@ color: #004981;
   padding: 0 10% 25%;
 }
 
-<<<<<<< HEAD
-=======
+
 #onle {
  text-decoration: underline;
 }
->>>>>>> 621e5b7882e90a2af9a3e028db5ddb15197a245e
+
 
 .lessonbox {
   width: 30vh;
   border: 2px solid #004981;
   padding: 0;
-<<<<<<< HEAD
   margin: 0;
-=======
   margin: 10px;
->>>>>>> 621e5b7882e90a2af9a3e028db5ddb15197a245e
 }
 
 .bordercolor {
@@ -246,8 +241,9 @@ a {
   margin-top: 25px;
   margin-left: 53px;
   margin-bottom: 20px;
+  background-color: white;
   right: 30px;
-  float: left;
+  border-style: solid;
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
 }
 
@@ -260,12 +256,10 @@ a {
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
 }
 
-<<<<<<< HEAD
-=======
 #newspic {
 
 }
->>>>>>> 621e5b7882e90a2af9a3e028db5ddb15197a245e
+
 
 /*newsboks*/
 #loginkedu {
