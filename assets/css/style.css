@@ -199,6 +199,25 @@ section {
 .bordercolor {
   border-color: #004981;
 }
+/*facebook post box*/
+.facepost {
+  border-style: solid;
+  float: right;
+  width: 500px;
+  height: 100px;
+  margin-right: 190px;
+  margin-top: 30px;
+}
+
+
+
+#potext {
+  padding-right: 270px;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+/*facebook post box*/
 /*Chat boxen css*/
 form, p, span {
   margin: 0;
@@ -270,10 +289,10 @@ a {
   border-style: solid;
   display: flex;
   margin-top: 25px;
-  margin-right: 53px;
+  margin-left: 53px;
   margin-bottom: 20px;
   right: 30px;
-  float: right;
+  float: left;
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
 }
 
@@ -287,6 +306,10 @@ a {
   border-top: none;
   border-bottom: none;
   border-right: none;
+}
+
+#newspic {
+  
 }
 
 /*newsboks*/
