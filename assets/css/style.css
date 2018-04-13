@@ -20,7 +20,6 @@ nav .ulnav {
     margin: auto;
     list-style: none;
     display: flex;
-
 }
 
 nav a {
@@ -144,6 +143,21 @@ section {
 }
 
 
+<<<<<<< HEAD
+=======
+.underliner h3 {
+  text-decoration: underline;
+}
+
+.flexbetween {
+  padding-left: 5px;
+  flex-direction: column;
+}
+
+.bordercolor {
+  border-color: #004981;
+}
+>>>>>>> 9071c73010d85eae58cd7ec36b60a5749e33825d
 /*Chat boxen css*/
 form, p, span {
   margin: 0;
@@ -216,6 +230,7 @@ a {
   display: flex;
   margin-top: 25px;
   margin-right: 53px;
+  margin-bottom: 20px;
   right: 30px;
   float: right;
   box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.2);
@@ -223,14 +238,14 @@ a {
 
 .newstekst {
   display: block;
-  border-style: solid;
-  border-right: none;
   font-family: "lato";
 }
 
 .newspic {
   border-style: solid;
-
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
 }
 
 /*newsboks*/
@@ -408,7 +423,6 @@ footer ul {
   max-width: 100%;
   text-align: center;
   color: white;
-
 }
 
 #kubofooter {
@@ -421,6 +435,7 @@ margin: auto 0 0 0;
 .stockfoto {
   width: 100%;
 }
+
 .content_wrapper {
   overflow: hidden;
   display: flex;
@@ -431,11 +446,11 @@ margin: auto 0 0 0;
   padding: 25px;
   margin: auto;
 }
+
 .line {
   margin: auto;
   padding:0;
   flex: 1;
-
  }
 
 .Billede1{
