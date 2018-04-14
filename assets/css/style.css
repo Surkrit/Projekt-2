@@ -131,6 +131,7 @@ color: #004981;
 
 #onle {
  text-decoration: underline;
+ justify-content: center;
 }
 
 
@@ -563,4 +564,34 @@ margin: auto 0 0 0;
   padding: 17px 20px;
   width: 100%;
   display: inline-block;
+
+
+/* editor-html starter her :D*/
+
+#editorwrapper {
+  margin: 75px 75px 0;
+  padding: 0;
+}
+
+#addstuff {
+  border-radius: 25px;
+  margin: auto;
+  height: 50px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+#tagtileeditor {
+  padding: 0;
+  margin:  25px auto;
+  height: 500px;
+  border: 2px solid black;
+}
+
+#sideedit {
+  border-right: 2px solid black;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
 }
