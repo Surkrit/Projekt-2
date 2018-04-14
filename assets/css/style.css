@@ -520,6 +520,8 @@ margin: auto 0 0 0;
 
 #uploadhead {
   text-align: center;
+  font-family: lato;
+  color:  #004981;
 }
 
 .uploadchat {
@@ -534,7 +536,6 @@ margin: auto 0 0 0;
 
 #uploadform {
   font-family: lato;
-  box-sizing: border-box;
   border-color: #004981;
   color: #004981;
   padding: 20px 10px;
@@ -549,7 +550,17 @@ margin: auto 0 0 0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: solid;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#uploadfiles {
+  border: solid;
+  font-family: lato;
+  border-color: #004981;
+  color: #004981;
+  padding: 17px 20px;
+  width: 100%;
+  display: inline-block;
 }
