@@ -171,6 +171,17 @@ color: #004981;
   border-right: none;
 }
 
+.postfeed {
+  margin-top: 10px;
+  border-style: solid;
+}
+
+.postes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 75px;
+}
 /*facebook post box*/
 /*Chat boxen css*/
 

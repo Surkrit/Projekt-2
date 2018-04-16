@@ -1,4 +1,35 @@
-function add(Username){
-    var TheTextBox = document.getElementById("Mytextbox");
-    TheTextBox.value = TheTextBox.value + text;
+/*Chatbox*/
+var modal =document.querySelector(".chatbox")
+
+function setLocal(localNotes)
+{
+  var jsonData = JSON.stringify(localNotes);
+
+  localStorage.setItem("chat", jsonData);
+}
+function getLocal()
+{
+  var chat = localStorage.getItem("chat");
+
+  if(chat == null)
+  {
+    return [];
+  }
+  else
+  {
+    return JSON.parse(chat);
+  }
+}
+
+function submitNote(text)
+{
+  var origchat =getLocal();
+
+  var newtext = {
+    text:     text,
+  };
+
+  origNotes.push(newtext)
+
+  setLocal(origchat)
 }
