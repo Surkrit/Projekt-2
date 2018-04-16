@@ -35,6 +35,7 @@ function submitChat(text)
   setLocal(origChat)
 }
   
+
 function buildList()
 {
   var chatList = getLocal();
