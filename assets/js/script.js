@@ -1,5 +1,5 @@
 /*Chatbox*/
-var modal =document.querySelector(".chatbox")
+var modal =document.querySelector(".massage")
 
 function setLocal(localNotes)
 {
@@ -33,3 +33,43 @@ function submitNote(text)
 
   setLocal(origchat)
 }
+function buildList()
+{
+  var chatList = getLocal();
+  var ulElm = document.querySelector("ul");
+
+  ulElm.innerhtml ="";
+
+  for(var i = 0; i < chatList.length; i++)
+  {
+  var liElm = document.createElement("li");
+  var pElm = document.createElement("p");
+
+  pElm.innerHTML = chatList[i].text;
+
+  liElm.appendChild(pElm);
+
+  ulElm.appendChild(liElm);
+  }
+}
+
+function submitChatEvent(event)
+{
+  console.log("submit new chat goes here")
+
+  var chatText = document.querySelector("chatText");
+
+  submitChat(chatText.value);
+  buildList();
+  modal.style.display = "none";
+
+}
+
+window.onload =function()
+{
+  buildList();
+}
+
+var submitChatBtn = document.querySelector("#addNote");
+
+submitChatBtn.addEventListener("click", submitChatEvent)
