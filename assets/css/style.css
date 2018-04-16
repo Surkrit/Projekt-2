@@ -166,7 +166,6 @@ color: #004981;
 
 h4 {
   color: white;
-  text-decoration: underline;
 }
 
 /*facebook post box*/
@@ -276,8 +275,6 @@ a {
 
 }
 
->>>>>>> dc03b32670af8b87a220cd1a6d0a4552853156c8
-.error {color: #ff0000}
 
 #menu { padding: 12.5px 25px 12.5px 25px;}
 
@@ -451,6 +448,10 @@ footer {
   height: 100%;
   display: flex;
   background-color: #004981;
+}
+
+.forumfooter {
+  position: 0;
 }
 
 footer ul {
