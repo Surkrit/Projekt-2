@@ -30,6 +30,8 @@ function newSub(){
   var addCom = document.querySelector("com");
 
   if (sub && uploadfiles && title && dur && year && com){
+    var origSub = getLocal();
+
     var uploadArray = {
       subject : sub,
       uploadFiles : uploadFiles,
@@ -37,7 +39,10 @@ function newSub(){
       addDuration : dur,
       addYear : year,
       addCom : com
+
     };
-console.log(uploadArray);
+    origSub.push(uploadArray);
+
+    setLocal(origSub);
   }
 }
