@@ -513,12 +513,14 @@ margin: auto 0 0 0;
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 15px;
 }
 
 #uploadhead {
   text-align: center;
   font-family: lato;
   color:  #004981;
+  padding: 15px;
 }
 
 .uploadchat {
@@ -529,6 +531,7 @@ margin: auto 0 0 0;
   background-color: white;
   position: 50%;
   flex: 1;
+  padding: 5px;
   }
 
 #uploadform {
@@ -538,6 +541,7 @@ margin: auto 0 0 0;
   padding: 20px 10px;
   width: 100%;
   display: inline-block;
+  border-radius: 10px;
 }
 
 #uploadbutton {
@@ -550,6 +554,7 @@ margin: auto 0 0 0;
     border: solid;
     border-radius: 5px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 #uploadfiles {
@@ -560,7 +565,8 @@ margin: auto 0 0 0;
   padding: 17px 20px;
   width: 100%;
   display: inline-block;
-
+  border-radius: 10px;
+}
 
 /* editor-html starter her :D*/
 
