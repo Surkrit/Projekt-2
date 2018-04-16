@@ -34,7 +34,6 @@ function submitChat(text)
 
   setLocal(origChat)
 }
-  
 
 function buildList()
 {
@@ -58,7 +57,7 @@ function buildList()
 
 function submitChatEvent(event)
 {
-  event.preventDefault();
+  
   console.log("submit new chat goes here")
 
   var usermsg = document.querySelector("#usermsg");
@@ -78,12 +77,20 @@ var submitChatBtn = document.querySelector("#submitmsg");
 submitChatBtn.addEventListener("click", submitChatEvent);
 console.log();
 
-function validate(){
-  var confirm = document.getElementById("loginuser");
-  var userName = document.getElementById("loginbutton").value;
-  if ("loginuser" == "Denny123");{
-    alert ("yeah");
-    window.location = "index.html";
-    return false;
+var confirm = [
+  {
+    username: "Denny123",
+    password: "123456"
   }
+]
+function validate(){
+  var username = document.querySelector("#loginuser").value;
+  var password = document.querySelector("#loginpassword").value;
+
+  for(i = 0; i < confirm.length; i++) {
+    if (username == confirm[i].username && password == confirm[i].password) {
+      window.open("index.html") && window.close("login.html");
+    }
+  }
+  alert("Incorrect username or password")
 }
