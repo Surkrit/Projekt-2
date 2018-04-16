@@ -355,7 +355,7 @@ a {
   color: #004981;
 }
 
-#loginuser {
+#loginuser, #loginpassword {
   display: flex;
   width: 98%;
   height: 35px;

@@ -8,17 +8,26 @@ function setLocal(localNotes)
   localStorage.setItem("chat", jsonData);
 }
 
+var confirm = [
+  {
+    username: "Denny123",
+    password: "123456"
+  }
+]
 
 
 function validate(){
-  var confirm = document.getElementById("loginuser");
-  var userName = document.getElementById("loginbutton").value;
-  if ("loginuser" == "Denny123");{
-    alert ("yeah");
-    window.location = "index.html";
-    return false;
+  var username = document.querySelector("#loginuser").value;
+  var password = document.querySelector("#loginpassword").value;
+
+  for(i = 0; i < confirm.length; i++) {
+    if (username == confirm[i].username && password == confirm[i].password) {
+      console.log(username + " yay")
+    }
   }
 }
+
+
 
 function getLocal()
 {
