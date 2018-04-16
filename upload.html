@@ -65,17 +65,18 @@
       <aside class="uploadlessons">
         <h1 id="uploadhead">UPLOAD LESSONS</h1>
       <form class="formular1" lang="en" method="post" enctype="multipart/form-data">
-          <input id="uploadform" list="subjects" placeholder="Chose Subject" size="20" >
+          <input class="sub uploadform" list="subjects" placeholder="Chose Subject" size="20" >
           <datalist id="subjects">
           <option value="Danish">
           <option value="Mathematics">
           <option value="Coding">
           <option value="Science">
           </datalist>
-          <input id="uploadfiles" type="file" name="uploadfiles"> <input id="uploadform" type="text" name="Title" placeholder="Title">
-          <input id="uploadform" type="number" name="Lesson Duration in min" placeholder="Lesson Duration in Minutes">
-          <input id="uploadform" type="date" name="bday">
-      	<textarea id="uploadform" placeholder="Comments"  rows="5" cols="30"></textarea>
+          <input id="uploadfiles" type="file" name="uploadfiles">
+          <input class="title uploadform" type="text" name="Title" placeholder="Title">
+          <input class="dur uploadform" type="number" name="Lesson Duration in min" placeholder="Lesson Duration in Minutes">
+          <input class="year uploadform" type="date" name="bday">
+      	<textarea class="com uploadform" placeholder="Comments"  rows="5" cols="30"></textarea>
 
         <input id="uploadbutton" align="center" type="submit" value="Upload">
       </form>
@@ -134,6 +135,6 @@
       <img src="assets/img/kedu.png" id="kubofooter" alt="kedu">
       </ul>
     </footer>
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/upload.js"></script>
   </body>
 </html>
