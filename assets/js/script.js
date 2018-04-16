@@ -7,6 +7,19 @@ function setLocal(localNotes)
 
   localStorage.setItem("chat", jsonData);
 }
+
+
+
+function validate(){
+  var confirm = document.getElementById("loginuser");
+  var userName = document.getElementById("loginbutton").value;
+  if ("loginuser" == "Denny123");{
+    alert ("yeah");
+    window.location = "index.html";
+    return false;
+  }
+}
+
 function getLocal()
 {
   var chat = localStorage.getItem("chat");
