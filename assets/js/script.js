@@ -1,23 +1,11 @@
 /*Chatbox*/
-var modal =document.querySelector(".massage")
+var massage =document.querySelector(".massage");
 
-function setLocal(localNotes)
+function setLocal(localChat)
 {
-  var jsonData = JSON.stringify(localNotes);
+  var jsonData = JSON.stringify(localChat);
 
   localStorage.setItem("chat", jsonData);
-}
-
-
-
-function validate(){
-  var confirm = document.getElementById("loginuser");
-  var userName = document.getElementById("loginbutton").value;
-  if ("loginuser" == "Denny123");{
-    alert ("yeah");
-    window.location = "index.html";
-    return false;
-  }
 }
 
 function getLocal()
@@ -34,9 +22,9 @@ function getLocal()
   }
 }
 
-function submitNote(text)
+function submitChat(text)
 {
-  var origChat =getLocal();
+  var origChat = getLocal();
 
   var newtext = {
     text:     text,
@@ -44,8 +32,9 @@ function submitNote(text)
 
   origChat.push(newtext)
 
-  setLocal(origchat)
+  setLocal(origChat)
 }
+  
 function buildList()
 {
   var chatList = getLocal();
@@ -55,27 +44,27 @@ function buildList()
 
   for(var i = 0; i < chatList.length; i++)
   {
-  var liElm = document.createElement("li");
-  var pElm = document.createElement("p");
+    var liElm = document.createElement("li");
+    var pElm = document.createElement("p");
 
-  pElm.innerHTML = chatList[i].text;
+    pElm.innerHTML = chatList[i].text;
 
-  liElm.appendChild(pElm);
+    liElm.appendChild(pElm);
 
-  ulElm.appendChild(liElm);
+    ulElm.appendChild(liElm);
   }
 }
 
 function submitChatEvent(event)
 {
+  event.preventDefault();
   console.log("submit new chat goes here")
 
-  var usermsg = document.querySelector("usermsg");
+  var usermsg = document.querySelector("#usermsg");
 
   submitChat(usermsg.value);
   buildList();
-  modal.style.display = "none";
-
+  message.style.display = "none";
 }
 
 window.onload =function()
@@ -86,4 +75,14 @@ window.onload =function()
 var submitChatBtn = document.querySelector("#submitmsg");
 
 submitChatBtn.addEventListener("click", submitChatEvent);
-console.log(submitChatBtn);
+console.log();
+
+function validate(){
+  var confirm = document.getElementById("loginuser");
+  var userName = document.getElementById("loginbutton").value;
+  if ("loginuser" == "Denny123");{
+    alert ("yeah");
+    window.location = "index.html";
+    return false;
+  }
+}
