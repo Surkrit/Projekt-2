@@ -32,7 +32,6 @@ nav a {
 
 }
 
-
 nav li {
   margin: auto 25px;
   padding: 0;
@@ -164,6 +163,12 @@ color: #004981;
 .underliner h2 h3{
   text-decoration: underline;
 }
+
+h4 {
+  color: white;
+  text-decoration: underline;
+}
+
 /*facebook post box*/
 .facepost {
   border-style: solid;
@@ -238,6 +243,10 @@ a {
     float:left;
   }
 
+.loginheader {
+  margin-top: 0;
+}
+
 #loginform { padding-top: 18px;}
 
   #loginform p {margin: 5px;}
@@ -257,14 +266,9 @@ a {
   width: 272px;
   margin-left: 35px;
   border:1px solid #acd8f0;
-  margin-top: 10px;
 }
 
 #submit {width: 60px;}
-
-#submitmsg{
-  
-}
 
 .error {color: #ff0000}
 
@@ -320,6 +324,7 @@ a {
 .content_login {
   display: flex;
   margin: auto;
+  margin-top: -2%;
 }
 
 
@@ -330,7 +335,7 @@ a {
 #login_background_right {
   height: 100%;
   background-color: #004981;
-  padding-bottom: 9.9%;
+  padding-bottom: 15.5%;
   flex: 3;
   color: white;
 }
@@ -339,6 +344,7 @@ a {
   font-family: lato;
   font-size: 12vh;
   right: 5%;
+  padding-top: 15%;
 }
 
 #createuser {
