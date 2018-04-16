@@ -1,34 +1,12 @@
 /*Chatbox*/
-var modal =document.querySelector(".massage")
+var message = document.querySelector(".massage");
 
-function setLocal(localNotes)
+function setLocal(localChat)
 {
-  var jsonData = JSON.stringify(localNotes);
+  var jsonData = JSON.stringify(localChat);
 
   localStorage.setItem("chat", jsonData);
 }
-
-var confirm = [
-  {
-    username: "Denny123",
-    password: "123456"
-  }
-]
-
-
-function validate(){
-  var username = document.querySelector("#loginuser").value;
-  var password = document.querySelector("#loginpassword").value;
-
-  for(i = 0; i < confirm.length; i++) {
-    if (username == confirm[i].username && password == confirm[i].password) {
-      window.open("index.html") && window.close("login.html");
-    }
-  }
-  alert("Incorrect username or password")
-}
-
-
 
 function getLocal()
 {
@@ -44,9 +22,9 @@ function getLocal()
   }
 }
 
-function submitNote(text)
+function submitChat(text)
 {
-  var origChat =getLocal();
+  var origChat = getLocal();
 
   var newtext = {
     text:     text,
@@ -54,38 +32,41 @@ function submitNote(text)
 
   origChat.push(newtext)
 
-  setLocal(origchat)
+  setLocal(origChat)
 }
+
+
 function buildList()
 {
   var chatList = getLocal();
-  var ulElm = document.querySelector("ul");
+  var ulElm = document.querySelector("#chatbox");
 
   ulElm.innerhtml ="";
 
   for(var i = 0; i < chatList.length; i++)
   {
-  var liElm = document.createElement("li");
-  var pElm = document.createElement("p");
+    var liElm = document.createElement("li");
+    var pElm = document.createElement("p");
 
-  pElm.innerHTML = chatList[i].text;
+    pElm.innerHTML = chatList[i].text;
 
-  liElm.appendChild(pElm);
+    liElm.appendChild(pElm);
 
-  ulElm.appendChild(liElm);
+    ulElm.appendChild(liElm);
   }
 }
 
 function submitChatEvent(event)
 {
+
   console.log("submit new chat goes here")
 
-  var usermsg = document.querySelector("usermsg");
+  var usermsg = document.querySelector("#usermsg");
 
   submitChat(usermsg.value);
   buildList();
-  modal.style.display = "none";
-
+  console.log(message);
+  message.style.display = "none";
 }
 
 window.onload =function()
@@ -96,6 +77,4 @@ window.onload =function()
 var submitChatBtn = document.querySelector("#submitmsg");
 
 submitChatBtn.addEventListener("click", submitChatEvent);
-console.log(submitChatBtn);
-
-/*Forum post starter her */
+console.log();
