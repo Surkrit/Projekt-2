@@ -99,3 +99,5 @@ var submitChatBtn = document.querySelector("#submitmsg");
 
 submitChatBtn.addEventListener("click", submitChatEvent);
 console.log(submitChatBtn);
+
+/*Forum post starter her */
