@@ -590,6 +590,7 @@ margin: auto 0 0 0;
 }
 
 #sideeditright {
+  height: 50%;
   width: 50px;
   border: 1px solid black;
   margin: 0;
