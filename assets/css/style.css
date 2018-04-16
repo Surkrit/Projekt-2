@@ -257,9 +257,14 @@ a {
   width: 272px;
   margin-left: 35px;
   border:1px solid #acd8f0;
+  margin-top: 10px;
 }
 
 #submit {width: 60px;}
+
+#submitmsg{
+  
+}
 
 .error {color: #ff0000}
 
