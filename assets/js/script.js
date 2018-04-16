@@ -22,9 +22,7 @@ function validate(){
 
   for(i = 0; i < confirm.length; i++) {
     if (username == confirm[i].username && password == confirm[i].password) {
-      alert(username + " Correct")
-      window.location.href = "www.index.html";
-      return
+      window.open("index.html") && window.close("login.html");
     }
   }
   alert("Incorrect username or password")
