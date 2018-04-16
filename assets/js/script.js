@@ -45,13 +45,13 @@ function getLocal()
 
 function submitNote(text)
 {
-  var origchat =getLocal();
+  var origChat =getLocal();
 
   var newtext = {
     text:     text,
   };
 
-  origNotes.push(newtext)
+  origChat.push(newtext)
 
   setLocal(origchat)
 }
@@ -79,9 +79,9 @@ function submitChatEvent(event)
 {
   console.log("submit new chat goes here")
 
-  var chatText = document.querySelector("chatText");
+  var usermsg = document.querySelector("usermsg");
 
-  submitChat(chatText.value);
+  submitChat(usermsg.value);
   buildList();
   modal.style.display = "none";
 
@@ -92,6 +92,7 @@ window.onload =function()
   buildList();
 }
 
-var submitChatBtn = document.querySelector("#addNote");
+var submitChatBtn = document.querySelector("#submitmsg");
 
-submitChatBtn.addEventListener("click", submitChatEvent)
+submitChatBtn.addEventListener("click", submitChatEvent);
+console.log(submitChatBtn);
