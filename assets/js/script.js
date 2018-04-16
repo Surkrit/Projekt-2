@@ -1,5 +1,5 @@
 /*Chatbox*/
-var massage =document.querySelector(".massage");
+var message = document.querySelector(".massage");
 
 function setLocal(localChat)
 {
@@ -39,7 +39,7 @@ function submitChat(text)
 function buildList()
 {
   var chatList = getLocal();
-  var ulElm = document.querySelector("ul");
+  var ulElm = document.querySelector("#chatbox");
 
   ulElm.innerhtml ="";
 
@@ -65,6 +65,7 @@ function submitChatEvent(event)
 
   submitChat(usermsg.value);
   buildList();
+  console.log(message);
   message.style.display = "none";
 }
 
