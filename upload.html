@@ -69,7 +69,7 @@
       <aside class="uploadlessons">
         <h1 id="uploadhead">UPLOAD LESSONS</h1>
       <form class="formular1" lang="en" method="post" enctype="multipart/form-data">
-          <input class="sub uploadform" list="subjects" placeholder="Chose Subject" size="20" >
+          <input id="sub" list="subjects" placeholder="Chose Subject" size="20" >
           <datalist id="subjects">
           <option value="Danish">
           <option value="Mathematics">
@@ -77,16 +77,18 @@
           <option value="Science">
           </datalist>
           <input id="uploadfiles" type="file" name="uploadfiles">
-          <input class="title uploadform" type="text" name="Title" placeholder="Title">
-          <input class="dur uploadform" type="number" name="Lesson Duration in min" placeholder="Lesson Duration in Minutes">
-          <input class="year uploadform" type="date" name="bday">
-      	<textarea class="com uploadform" placeholder="Comments"  rows="5" cols="30"></textarea>
+          <input id="title" type="text" name="Title" placeholder="Title">
+          <input id="dur" type="number" name="Lesson Duration in min" placeholder="Lesson Duration in Minutes">
+          <input id="year" type="date" name="bday">
+      	<textarea id="com" placeholder="Comments"  rows="5" cols="30"></textarea>
 
-        <input id="uploadbutton" type="submit" value="Upload">
+        <input id="uploadbutton" align="center" type="button" value="Upload">
       </form>
-    </aside>
 
+      <div id="adding"></div>
+    </aside>
     </main>
+
     <footer>
     <div class="footerul">
       <div class="classes">
