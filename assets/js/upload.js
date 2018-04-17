@@ -82,6 +82,10 @@ if(typeof obj !== "undefined" && obj != null) {
       divYear.innerHTML = arg.year;
       divBox.appendChild(divYear);
 
+      var button = document.createElement("button");
+      button.innerHTML = "Edit";
+      divBox.appendChild(button);
+
       divLocation.appendChild(divBox);
 
     } else {
