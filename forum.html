@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Forum</title>
-  <meta name="description" content="KEDU is the learning site from the makers KUBO, teaching about computers and koding can be hard, to teach for the smaller kids, this is were KUBO helps making it fun and exciting.">
-  <meta name "author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
-  <meta name="keywords" content="kubo, robot, kedu, education">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="shortcut icon" type="image/png" href="assets\img\kubohoved.png">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Forside</title>
+    <meta name="description" content="KEDU is the learning site from the makers KUBO, teaching about computers and koding can be hard, to teach for the smaller kids, this is were KUBO helps making it fun and exciting.">
+    <meta name="author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
+    <meta name="keywords" content="kubo, robot, kedu, education">
+
+    <link rel="shortcut icon" type="image/png" href="assets/img/kubohoved.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+  </head>
   <body>
         <header>
           <nav>
             <ul class="ulnav">
-              <a href="index.html"><img src="assets/img/kedu.png" id="hvikedu" alt="kedu"></a>
+              <li><a  href="index.html"><img src="assets/img/kedu.png" id="hvikedu" alt="kedu"></a></li>
               <li>
                 <div class="dropdown">
                   <button class="dropbtn">Classes</button>
@@ -48,8 +49,10 @@
                   </div>
                 </div>
               </li>
+            </ul>
+            <div class="searchmenu">
+
               <input type="text" placeholder="Search" name="search" id="search">
-              <span class="fa fa-search" id="seicon"></span>
               <div class="dropdown">
                 <button class="dropbtn fa fa-bars" id="baricon"></button>
                 <div class="dropdown_content">
@@ -58,58 +61,52 @@
                   <a href="login.html">logout</a>
                 </div>
                 </div>
-            </ul>
+              </div>
           </nav>
         </header>
+
         <h1 id="headerforum">FORUM</h1>
         <article class="articleforum">
           <div class="forumpost">
-          <p id="forumcontent">Subject</p>
-          <p id="forumcontent">Title</p>
-          <p id="forumcontent">Date</p>
-          <p id="forumcontent">Duration</p>
+          <p class="forumcontent">Subject</p>
+          <p class="forumcontent">Title</p>
+          <p class="forumcontent">Date</p>
+          <p class="forumcontent">Duration</p>
           </div>
           <p id="commentforum">Comment</p>
         </article>
-        <footer class="forumfooter">
-        <ul>
-            <li class="classes">
+        <footer>
+        <div class="footerul">
+          <div class="classes">
               <h4><u>Classes</u></h4>
               <p><a href="#">0-4th grade</a></p>
               <p><a href="#">5th-6th grade</a></p>
               <p><a href="#">7th-9th grade</a></p>
-            </li>
+            </div>
+
           <div class="lessons">
-            <li>
               <h4><u>Lessons</u></h4>
               <p><a href="#">Danish</a></p>
               <p><a href="#">Science</a></p>
               <p><a href="#">Coding</a></p>
-            </li>
           </div>
 
           <div class="aboutus">
-            <li>
               <h4><u>About Us</u></h4>
               <p><a href="#">Welcome</a></p>
               <p><a href="#">KEDU</a></p>
               <p><a href="#">KUBO Robotics</a></p>
-            </li>
           </div>
 
           <div class="icons">
-           <li>
             <h4>Contact Us</h4>
             <a href="https://www.facebook.com/KUBORobot/" target="_blank"> <img src="assets/img/face.png" alt="facebook" style="width:4vh;"></a>
             <a href="https://www.instagram.com/kubo_robotics/" target="_blank"> <img src="assets/img/instagram.png" alt="instagram" style="width:4vh;"></a>
             <a href="https://www.youtube.com/channel/UChwLFdfKUKjSIjsmqjK1g9A" target="_blank"> <img src="assets/img/youtube.png" alt="youtube" style="width:4vh;"></a>
-           </li>
           </div>
 
           <div class="contactus">
-          <li>
               <form class="formular"
-                action=""
                 method="POST"
                 enctype="multipart/form-data"
                 name="EmailTestForm">
@@ -117,10 +114,9 @@
                 Message:<br><textarea rows="4" cols="40"></textarea><br>
                 <input type="submit" value="Send">
               </form>
-            </li>
           </div>
           <img src="assets/img/kedu.png" id="kubofooter" alt="kedu">
-          </ul>
+        </div>
         </footer>
     <script src="assets/js/script.js"></script>
         <div id="newpost"></div>

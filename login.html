@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Login</title>
   <meta name="description" content="KEDU is the learning site from the makers KUBO, teaching about computers and koding can be hard, to teach for the smaller kids, this is were KUBO helps making it fun and exciting.">
-  <meta name "author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
+  <meta name="author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
   <meta name="keywords" content="kubo, robot, kedu, education">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="shortcut icon" type="image/png" href="assets\img\kubohoved.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/kubohoved.png">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -16,39 +16,37 @@
     <main>
       <header>
         <nav class="loginheader">
-          <ul class="loginheader">
             <img src="assets/img/kedu.png" id="loginkedu" alt="kedu">
         </nav>
       </header>
       <div class="content_login">
-        <article id="login_background_left">
+        <article class="login_background_left">
           <div class="welcomemessage">
           <h1 id="welcome">Welcome to</h1>
           <img id="keduwelcome" src="assets/img/kedu_login.png" alt="welcome">
           </div>
         </article>
-        <aside id="login_background_right">
+      <aside class="login_background_right">
           <div class="logincreate">
-          <h4 id="login">LOGIN</h4>
-          <a id="createuser" href="#">Create user</a>
-          </div>
-        <form class="loginform">
+            <h4 id="login">LOGIN</h4>
+              <a id="createuser" href="#">Create user</a>
+              </div>
+            <form class="loginform">
 
-        <br><input id="loginuser" type="text" placeholder="Username" size="35"><br>
-        <br><input id="loginpassword" type="password" placeholder="Password" size="35"><br>
-        <input id="loginbutton" type="submit" value="Sign In" onclick="validate()">
-        </form>
+            <br><input id="loginuser" type="text" placeholder="Username" size="35"><br>
+            <br><input id="loginpassword" type="password" placeholder="Password" size="35"><br>
+            <input id="loginbutton" type="submit" value="Sign In" onclick="validate()">
+            </form>
 
-        <div class="checkboxpassword">
-      <form action="">
-        <label class="rememberme">
-          <input type="checkbox" name="remember" value="Remember Me">Remember Me<br>
-        </label>
-        <a id="forgotpassword" href="#">Forgot Password</a>
-      </form>
-        </div>
-      </div>
-    </aside>
+            <div class="checkboxpassword">
+          <form>
+            <label class="rememberme">
+              <input type="checkbox" name="remember" value="Remember Me">Remember Me</label>
+            <a id="forgotpassword" href="#">Forgot Password</a>
+          </form>
+            </div>
+      </aside>
+    </div>
         <footer>
         </footer>
     </main>
