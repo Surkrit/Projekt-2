@@ -6,9 +6,10 @@ nav {
     margin: 0;
     padding: 0;
     z-index: 100;
-    width: 100%;
     background-color: #004981;
     font-family: "lato";
+    display: flex;
+    width: 100%;
 }
 
 .ulnav {
@@ -20,6 +21,12 @@ nav .ulnav {
     margin: auto;
     list-style: none;
     display: flex;
+    flex: 1;
+}
+
+.searchmenu {
+  display: flex;
+  margin-right: 100px;
 }
 
 nav a {
@@ -79,16 +86,14 @@ color: #004981;
   position: relative;
   display: inline-block;}
 
-
 #hvikedu{
   height: 60px;
   max-height: 100%;
 }
 
 #search {
-  padding: auto 15px;
+  padding: 10px;
   margin: auto;
-  flex: 3 ;
   height: 100%;
   display: block;
 }
@@ -107,7 +112,7 @@ color: #004981;
   padding-top: 20px;
 }
 
-#kuta {
+.kuta {
   max-width: 100%;
   height: 20vh;
   padding: 2px;
@@ -226,7 +231,7 @@ input {
 }
 
 a {
-  color: #004981;
+  color: white;
   text-decoration: none;
 }
 
@@ -269,12 +274,7 @@ a {
 
 #submit {width: 60px;}
 
-<<<<<<< HEAD
-=======
-#submitmsg{
-
-}
-
+#submitmsg{}
 
 #menu { padding: 12.5px 25px 12.5px 25px;}
 
@@ -307,7 +307,29 @@ a {
   display:flex;
 }
 
-#newspic {
+#newspic1 {
+  margin-top: 14.5px;
+  width: 10%;
+  height: 250px;
+  flex:1;
+  padding:1px;
+  border: black solid;
+  border:#004981;
+  border-radius: 7px;
+}
+
+#newspic2 {
+  margin-top: 14.5px;
+  width: 10%;
+  height: 250px;
+  flex:1;
+  padding:1px;
+  border: black solid;
+  border:#004981;
+  border-radius: 7px;
+}
+
+#newspic3 {
   margin-top: 14.5px;
   width: 10%;
   height: 250px;
@@ -331,15 +353,14 @@ a {
   margin-top: -2%;
 }
 
-
-#login_background_left {
+.login_background_left {
   flex: 4;
 }
 
-#login_background_right {
+.login_background_right {
   height: 100%;
   background-color: #004981;
-  padding-bottom: 15.5%;
+  padding-bottom: 17.8%;
   flex: 3;
   color: white;
 }
@@ -450,11 +471,7 @@ footer {
   background-color: #004981;
 }
 
-.forumfooter {
-  position: 0;
-}
-
-footer ul {
+.footerul {
   display: flex;
   list-style: none;
   flex-direction: row;
@@ -500,9 +517,8 @@ footer ul {
 }
 
 #kubofooter {
-margin: auto 0 0 0;
+  margin: auto 0 0 0;
   width: 10%;
-  height: 10%;
   max-height: 100%;
 }
 /* steps.html sectionen */
@@ -586,7 +602,6 @@ margin: auto 0 0 0;
 
 .uploadlessons {
   background-color: white;
-  position: 50%;
   flex: 1;
   padding: 5px;
   }
@@ -686,7 +701,7 @@ margin: auto 0 0 0;
   padding: 10px;
 }
 
-#forumcontent {
+.forumcontent {
   flex: 1;
 }
 

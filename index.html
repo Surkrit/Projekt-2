@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Forside</title>
     <meta name="description" content="KEDU is the learning site from the makers KUBO, teaching about computers and koding can be hard, to teach for the smaller kids, this is were KUBO helps making it fun and exciting.">
-    <meta name "author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
+    <meta name="author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
     <meta name="keywords" content="kubo, robot, kedu, education">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" type="image/png" href="assets\img\kubohoved.png">
+
+    <link rel="shortcut icon" type="image/png" href="assets/img/kubohoved.png">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
         <header>
           <nav>
             <ul class="ulnav">
-              <a href="index.html"><img src="assets/img/kedu.png" id="hvikedu" alt="kedu"></a>
+              <li><a  href="index.html"><img src="assets/img/kedu.png" id="hvikedu" alt="kedu"></a></li>
               <li>
                 <div class="dropdown">
                   <button class="dropbtn">Classes</button>
@@ -44,12 +45,14 @@
                   <button class="dropbtn">Courses</button>
                   <div class="dropdown_content">
                     <a href="upload.html">Upload Lesson</a>
-                    <a href="forum.html">Forum</a>
+                    <a href="#">Forum</a>
                   </div>
                 </div>
               </li>
+            </ul>
+            <div class="searchmenu">
+
               <input type="text" placeholder="Search" name="search" id="search">
-              <span class="fa fa-search" id="seicon"></span>
               <div class="dropdown">
                 <button class="dropbtn fa fa-bars" id="baricon"></button>
                 <div class="dropdown_content">
@@ -58,12 +61,11 @@
                   <a href="login.html">logout</a>
                 </div>
                 </div>
-            </ul>
+              </div>
           </nav>
         </header>
 
       <main>
-        <div class="test">
           <div id="wrapper">
             <div id="menu">
               <p class="chwelcome">Welcome Denny123<b></b></p>
@@ -72,7 +74,7 @@
             </div>
 
             <div id="chatbox"></div>
-            <form name="massage" action="">
+            <form name="massage">
               <ul></ul>
               <input type="text" id="usermsg">
               <button id="submitmsg">Submit</button>
@@ -93,103 +95,93 @@
             <h2 id="onle">Online Lessons</h2>
               <div class="classbox">
                 <div class="lessonbox underliner">
-                  <img src="assets/img/kodning.jpeg" alt="Kubo and Tagtile" id="kuta"></img>
+                  <img src="assets/img/kodning.jpeg" alt="Kubo and Tagtile" class="kuta">
                   <h3>Elements from KUBO</h3>
-                  <p>Welcome to your firste lesson from KEDU, the first thing we are going to de is look in to what a KUBO packes is going to include.</p>
-
+                  <p>Welcome to your first lesson from KEDU. The first thing we are going to de is look in to what a KUBO packes is going to include.</p>
                 </div>
 
                 <div class="lessonbox underliner">
-                  <img src="assets/img/kubotag.png" alt="Kubo and Tagtile" id="kuta"></img>
+                  <img src="assets/img/kubotag.png" alt="Kubo and Tagtile" class="kuta">
                   <h3>Basic KUBO</h3>
-                  <p>Starting with the basic of KUBO, all from how to turn it on, and make it move around.</p>
+                  <p>Starting out with the basics of KUBO, all from how to turn it on and how to make it move around.</p>
                 </div>
 
                 <div class="lessonbox underliner">
-                  <img src="assets/img/kreative.jpeg" alt="Kubo and Tagtile" id="kuta">
+                  <img src="assets/img/kreative.jpeg" alt="Kubo and Tagtile" class="kuta">
                   <h3>Advanced basics</h3>
-                  <p>Now we have learn how about the basic of KUBO let us step it up a littel bit, and try to include different element from the packed.</p>
+                  <p>Now that we have learned the basics of KUBO let us step it up a little bit, and try to include different elements from the package.</p>
                 </div>
               </div>
 
               <div class="classbox2">
                 <div class="lessonbox underliner">
-                  <img src="assets/img/skriving.jpg " alt="Kubo and Tagtile" id="kuta"></img>
+                  <img src="assets/img/skriving.jpg " alt="Kubo and Tagtile" class="kuta">
                   <h3>Functions</h3>
-                  <p>Let us get startede on functions, functions are used to make KUBO remeber or a statment that performs a task or calculates a value.</p>
+                  <p>Let us get started with functions. Functions are used to make KUBO remember movement or a statment that performs a task or calculates a value.</p>
 
                 </div>
 
                 <div class="lessonbox underliner">
-                  <img src="assets/img/mate.jpeg" alt="Kubo and Tagtile" id="kuta"></img>
+                  <img src="assets/img/mate.jpeg" alt="Kubo and Tagtile" class="kuta">
                   <h3>Loops</h3>
-                  <p>Loops is a great way to repeat functions.</p>
+                  <p>Loops are a great way to repeat functions.</p>
                 </div>
 
                 <div class="lessonbox underliner">
-                  <img src="assets/img/kodning2.jpeg" alt="Kubo and Tagtile" id="kuta">
+                  <img src="assets/img/kodning2.jpeg" alt="Kubo and Tagtile" class="kuta">
                   <h3>From KEDU to coding</h3>
-                  <p>Now we learnt KUBO, we are now going to see how we can take it and put it into coding.</p>
+                  <p>Now that we've learnt KUBO, we are now going to see how we can take it and put it into coding.</p>
                 </div>
               </div>
-            </div>
+          </section>
 
             <section class="news bordercolor">
-                <div class="newsboks">
+              <div class="newsboks">
                     <h3><b>News</b></h3>
-                    <p>KUBO just released the new KEDU site!
+                    <p>KUBO has just released an exciting new update to their KEDU site!
                     It is now possible to create and share
                   your lessons with others.</p>
                   <div class="imagesforside">
-                  <img src="assets/img/skriving.jpg" id="newspic" alt="skriving">
-                  <img src="assets/img/opgaver.jpeg" id="newspic" alt="skriving">
-                  <img src="assets/img/kreative.jpeg" id="newspic" alt="skriving">
+                  <img src="assets/img/skriving.jpg" id="newspic1" alt="skriving">
+                  <img src="assets/img/opgaver.jpeg" id="newspic2" alt="skriving">
+                  <img src="assets/img/kreative.jpeg" id="newspic3" alt="skriving">
                   </div>
-                </div>
-                </div>
+              </div>
             </section>
           </main>
 
         <footer>
-        <ul>
-            <li class="classes">
+        <div class="footerul">
+          <div class="classes">
               <h4><u>Classes</u></h4>
               <p><a href="#">0-4th grade</a></p>
               <p><a href="#">5th-6th grade</a></p>
               <p><a href="#">7th-9th grade</a></p>
-            </li>
+            </div>
 
           <div class="lessons">
-            <li>
               <h4><u>Lessons</u></h4>
               <p><a href="#">Danish</a></p>
               <p><a href="#">Science</a></p>
               <p><a href="#">Coding</a></p>
-            </li>
           </div>
 
           <div class="aboutus">
-            <li>
               <h4><u>About Us</u></h4>
               <p><a href="#">Welcome</a></p>
               <p><a href="#">KEDU</a></p>
               <p><a href="#">KUBO Robotics</a></p>
-            </li>
           </div>
 
           <div class="icons">
-           <li>
             <h4>Contact Us</h4>
             <a href="https://www.facebook.com/KUBORobot/" target="_blank"> <img src="assets/img/face.png" alt="facebook" style="width:4vh;"></a>
             <a href="https://www.instagram.com/kubo_robotics/" target="_blank"> <img src="assets/img/instagram.png" alt="instagram" style="width:4vh;"></a>
             <a href="https://www.youtube.com/channel/UChwLFdfKUKjSIjsmqjK1g9A" target="_blank"> <img src="assets/img/youtube.png" alt="youtube" style="width:4vh;"></a>
-           </li>
           </div>
 
           <div class="contactus">
-          <li>
               <form class="formular"
-                action=""
                 method="POST"
                 enctype="multipart/form-data"
                 name="EmailTestForm">
@@ -197,10 +189,9 @@
                 Message:<br><textarea rows="4" cols="40"></textarea><br>
                 <input type="submit" value="Send">
               </form>
-            </li>
           </div>
           <img src="assets/img/kedu.png" id="kubofooter" alt="kedu">
-          </ul>
+        </div>
         </footer>
     <script src="assets/js/script.js"></script>
   </body>
