@@ -1,79 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Upload</title>
-    <meta name="description" content="KEDU is the learning site from the makers KUBO, teaching about computers and koding can be hard, to teach for the smaller kids, this is were KUBO helps making it fun and exciting.">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Upload</title>
+  <meta name="description" content="KEDU is the learning site from the makers KUBO, teaching about computers and koding can be hard, to teach for the smaller kids, this is were KUBO helps making it fun and exciting.">
+  <meta name "author" content="Dennis Jensen, Vy Vu, Nida Salam, Alexander Larsen">
+  <meta name="keywords" content="kubo, robot, kedu, education">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" type="image/png" href="assets\img\kubohoved.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
   <body>
-    <header>
-      <nav>
-        <ul class="ulnav">
-          <img src="assets/img/kedu.png" id="hvikedu" alt="kedu">
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">Classes</button>
-              <div class="dropdown_content">
-                <a href="#">pre school</a>
-                <a href="#">elementry school</a>
-                <a href="#">high school</a>
-              </div>
-            </div>
-          </li>
+        <header>
+          <nav>
+            <ul class="ulnav">
+              <a href="index.html"><img src="assets/img/kedu.png" id="hvikedu" alt="kedu"></a>
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn">Classes</button>
+                  <div class="dropdown_content">
+                    <a href="#">Pre school</a>
+                    <a href="#">Elementry school</a>
+                    <a href="#">high school</a>
+                  </div>
+                </div>
+              </li>
 
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">Subject</button>
-              <div class="dropdown_content">
-                <a href="#">link 1</a>
-                <a href="#">link 1</a>
-                <a href="#">link 1</a>
-              </div>
-            </div>
-          </li>
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn">Subject</button>
+                  <div class="dropdown_content">
+                    <a href="#">Danish</a>
+                    <a href="#">Science</a>
+                    <a href="#">Coding</a>
+                  </div>
+                </div>
+              </li>
 
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">Courses</button>
-              <div class="dropdown_content">
-                <a href="#">link 1</a>
-                <a href="#">link 1</a>
-                <a href="#">link 1</a>
-              </div>
-            </div>
-          </li>
-          <input type="text" placeholder="Search" name="search" id="search">
-          <span class="fa fa-search" id="seicon"></span>
-          <div class="dropdown">
-            <button class="dropbtn fa fa-bars" id="baricon"></button>
-            <div class="dropdown_content">
-              <a href="#">link 1</a>
-              <a href="#">link 1</a>
-              <a href="#">link 1</a>
-            </div>
-            </div>
-        </ul>
-      </nav>
-    </header>
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn">Courses</button>
+                  <div class="dropdown_content">
+                    <a href="upload.html">Upload Lesson</a>
+                    <a href="forum.html">Forum</a>
+                  </div>
+                </div>
+              </li>
+              <input type="text" placeholder="Search" name="search" id="search">
+              <span class="fa fa-search" id="seicon"></span>
+              <div class="dropdown">
+                <button class="dropbtn fa fa-bars" id="baricon"></button>
+                <div class="dropdown_content">
+                  <a href="#">Profile</a>
+                  <a href="#">Settings</a>
+                  <a href="login.html">logout</a>
+                </div>
+                </div>
+            </ul>
+          </nav>
+        </header>
       <main class="uploadmain">
       <aside class="uploadlessons">
         <h1 id="uploadhead">UPLOAD LESSONS</h1>
       <form class="formular1" lang="en" method="post" enctype="multipart/form-data">
-          <input id="uploadform" list="subjects" placeholder="Chose Subject" size="20" >
+          <input class="sub uploadform" list="subjects" placeholder="Chose Subject" size="20" >
           <datalist id="subjects">
           <option value="Danish">
           <option value="Mathematics">
           <option value="Coding">
           <option value="Science">
           </datalist>
-          <input id="uploadfiles" type="file" name="uploadfiles"> <input id="uploadform" type="text" name="Title" placeholder="Title">
-          <input id="uploadform" type="number" name="Lesson Duration in min" placeholder="Lesson Duration in Minutes">
-          <input id="uploadform" type="date" name="bday">
-      	<textarea id="uploadform" placeholder="Comments"  rows="5" cols="30"></textarea>
+          <input id="uploadfiles" type="file" name="uploadfiles">
+          <input class="title uploadform" type="text" name="Title" placeholder="Title">
+          <input class="dur uploadform" type="number" name="Lesson Duration in min" placeholder="Lesson Duration in Minutes">
+          <input class="year uploadform" type="date" name="bday">
+      	<textarea class="com uploadform" placeholder="Comments"  rows="5" cols="30"></textarea>
 
         <input id="uploadbutton" align="center" type="submit" value="Upload">
       </form>
@@ -84,35 +87,38 @@
     <ul>
         <li class="classes">
           <h4><u>Classes</u></h4>
-          <p>0-4th grade</p>
-          <p>5th-6th grade</p>
-          <p>7th-9th grade</p>
+          <p><a href="#">0-4th grade</a></p>
+          <p><a href="#">5th-6th grade</a></p>
+          <p><a href="#">7th-9th grade</a></p>
         </li>
 
       <div class="lessons">
         <li>
           <h4><u>Lessons</u></h4>
-          <p>Danish</p>
-          <p>Math</p>
-          <p>Coding</p>
+          <p><a href="#">Danish</a></p>
+          <p><a href="#">Science</a></p>
+          <p><a href="#">Coding</a></p>
         </li>
       </div>
+
       <div class="aboutus">
         <li>
           <h4><u>About Us</u></h4>
-          <p>FaQ</p>
-          <p>KEDU</p>
-          <p>Kubo Robotics</p>
+          <p><a href="#">Welcome</a></p>
+          <p><a href="#">KEDU</a></p>
+          <p><a href="#">KUBO Robotics</a></p>
         </li>
       </div>
+
       <div class="icons">
        <li>
         <h4>Contact Us</h4>
-        <a href="https://www.facebook.com" target="_blank"> <img src="assets/img/facebook.svg" alt="facebook" style="width:4vh;"></a>
-        <a href="https://www.instagram.com" target="_blank"> <img src="assets/img/instagram.svg" alt="instagram" style="width:4vh;"></a>
-        <a href="https://www.youtube.com" target="_blank"> <img src="assets/img/youtube.svg" alt="youtube" style="width:4vh;"></a>
+        <a href="https://www.facebook.com/KUBORobot/" target="_blank"> <img src="assets/img/face.png" alt="facebook" style="width:4vh;"></a>
+        <a href="https://www.instagram.com/kubo_robotics/" target="_blank"> <img src="assets/img/instagram.png" alt="instagram" style="width:4vh;"></a>
+        <a href="https://www.youtube.com/channel/UChwLFdfKUKjSIjsmqjK1g9A" target="_blank"> <img src="assets/img/youtube.png" alt="youtube" style="width:4vh;"></a>
        </li>
       </div>
+
       <div class="contactus">
       <li>
           <form class="formular"
@@ -129,6 +135,6 @@
       <img src="assets/img/kedu.png" id="kubofooter" alt="kedu">
       </ul>
     </footer>
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/upload.js"></script>
   </body>
 </html>
